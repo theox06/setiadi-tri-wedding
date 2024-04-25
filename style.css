@@ -477,8 +477,12 @@ footer li {
   margin-top: -2rem;
 }
 
+/* .home {
+  margin-top: -13rem;
+} */
+
 .home .container {
-  margin-top: -1rem;
+  margin-top: -6rem;
 }
 
 /* Media Query */
@@ -490,6 +494,14 @@ footer li {
 
   span .symbol {
     display: none;
+  }
+
+  .home .heart h1 {
+    display: inline-block;
+    margin: auto;
+    font-family: "Pacifico";
+    color: var(--pink);
+    font-size: 400;
   }
 }
 
