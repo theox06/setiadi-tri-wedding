@@ -127,6 +127,8 @@ body {
   background-image: url(img/bg-landing-page.svg);
   background-color: white;
   background-size: cover;
+  background-position: center;
+  z-index: -1;
   min-height: 100vh;
   margin-top: -6rem;
   padding-top: 15rem;
@@ -265,7 +267,7 @@ body {
 }
 
 .gifts p {
-  font-size: 1.4rem;
+  font-size: 1.05rem;
   font-weight: bold;
 }
 
@@ -457,6 +459,22 @@ footer li {
   to {
     transform: rotate(360deg);
   }
+}
+
+.gifts a {
+  color: white;
+  background-color: var(--pink);
+  box-shadow: var(--shadow);
+  margin-top: -0.5rem;
+}
+
+.gifts a:hover {
+  background-color: white;
+  color: var(--pink);
+}
+
+.home h2 p {
+  margin-top: -2rem;
 }
 
 /* Media Query */
