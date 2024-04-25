@@ -693,7 +693,7 @@ footer li {
     position: absolute;
     left: 50%;
     transform: translateX(-50%) translateY(65px);
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   .home h3 {
