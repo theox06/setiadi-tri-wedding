@@ -17,11 +17,11 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(img/bg-landing-page-final.jpg);
+  background-image: url(img/bg-landing-page.svg);
   background-size: cover;
   background-position: center;
   z-index: -1;
-  filter: grayscale();
+  /* filter: grayscale(); */
 }
 
 .hero {
@@ -38,25 +38,73 @@ body {
 .hero h1 {
   font-family: "Sacramento", cursive;
   font-size: 6rem;
+  color: var(--pink);
 }
 
 .hero h4 {
   font-size: 1.6rem;
+  color: var(--pink);
 }
 
 .hero p {
   font-size: 1.4rem;
+  color: var(--pink);
 }
 
 .hero a {
-  color: var(--pink);
-  background-color: white;
+  color: white;
+  background-color: var(--pink);
   box-shadow: var(--shadow);
 }
 
 .hero a:hover {
-  background-color: var(--pink);
-  color: white;
+  background-color: white;
+  color: var(--pink);
+}
+
+.hero .couple {
+  margin-top: 50px;
+}
+
+.hero .couple h3 {
+  font-family: "Sacramento";
+  font-size: 2.4rem;
+  color: var(--pink);
+}
+
+.hero .couple img {
+  width: 85%;
+}
+
+.hero .couple {
+  margin-top: 100px;
+}
+
+.hero .couple h3 {
+  font-family: "Sacramento";
+  font-size: 2.4rem;
+  color: var(--pink);
+}
+
+.hero .couple img {
+  width: 100%;
+}
+
+.hero .heart {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(65px);
+}
+
+.hero .heart i {
+  margin: auto;
+  color: var(--pink);
 }
 
 /* .mynavbar {
@@ -76,7 +124,7 @@ body {
 }
 
 .home {
-  background-image: url(img/bg-menu-5.png);
+  /* background-image: url(img/bg-menu-5.png); */
   background-size: cover;
   min-height: 100vh;
   margin-top: -6rem;
@@ -88,9 +136,15 @@ body {
 .info h2,
 .story h2,
 .gallery h2,
-.rsvp h2,
 .gifts h2 {
   color: var(--pink);
+  font-family: "Sacramento";
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.rsvp h2 {
+  color: white;
   font-family: "Sacramento";
   font-size: 5rem;
   font-weight: bold;
@@ -197,10 +251,14 @@ body {
 
 .story p,
 .gallery p,
-.rsvp p,
-.gifts p {
+.rsvp p {
   font-size: 1rem;
   font-weight: 300;
+}
+
+.gifts p {
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 
 .timeline {
@@ -305,7 +363,7 @@ body {
 }
 
 .rsvp {
-  background-color: var(--bg);
+  background-color: var(--pink);
 }
 
 .rsvp h2 {
@@ -321,21 +379,21 @@ body {
 }
 
 .rsvp button {
-  background-color: var(--pink);
-  color: white;
-  border: 1px solid var(--pink);
-}
-
-.rsvp button {
-  background-color: var(--pink);
-  color: white;
-  border: 1px solid var(--pink);
-}
-
-.rsvp button:hover {
   background-color: white;
   color: var(--pink);
   border: 1px solid white;
+}
+
+.rsvp button {
+  background-color: white;
+  color: var(--pink);
+  border: 1px solid white;
+}
+
+.rsvp button:hover {
+  background-color: #666;
+  color: white;
+  border: 1px solid #666;
 }
 
 footer {
