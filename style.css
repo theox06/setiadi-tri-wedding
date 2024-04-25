@@ -477,6 +477,10 @@ footer li {
   margin-top: -2rem;
 }
 
+.home .container {
+  margin-top: -1rem;
+}
+
 /* Media Query */
 /* Extra large */
 @media (max-width: 1200px) {
