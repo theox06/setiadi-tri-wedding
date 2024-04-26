@@ -611,14 +611,14 @@ footer li {
     margin: auto;
     font-family: "Pacifico";
     color: var(--pink);
-    font-size: 300;
+    font-size: 180%;
   }
 
   .home .heart {
     display: inline-block;
     margin: auto;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background-color: white;
     display: flex;
     border-radius: 50%;
@@ -681,7 +681,7 @@ footer li {
     position: absolute;
     left: 50%;
     transform: translateX(-50%) translateY(65px);
-    margin-top: 5rem;
+    margin-top: 4.1rem;
   }
 
   .home .heart h1 {
@@ -811,7 +811,7 @@ footer li {
     border-radius: 50%;
     position: absolute;
     left: 50%;
-    margin-top: 1.8rem;
+    margin-top: 1.75rem;
   }
 
   .home .heart h1 {
