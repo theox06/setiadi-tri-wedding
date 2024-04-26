@@ -961,11 +961,139 @@ footer li {
     border-radius: 50%;
     position: absolute;
     left: 50%;
-    margin-top: 1.45rem;
+    margin-top: 1.2rem;
   }
 
   .home .heart h1 {
     font-size: 115%;
+    right: 50%;
+  }
+
+  /* .home .heart h1 {
+    display: inline-block;
+    margin: auto;
+    font-family: "Pacifico";
+    color: var(--pink);
+    font-size: 300;
+    margin-top: 6rem;
+  } */
+
+  .home h3 {
+    font-size: 85%;
+  }
+
+  .home p {
+    font-size: 75%;
+  }
+
+  .gifts {
+    background: url(img/bg-thanks.jpg);
+    background-size: cover;
+  }
+
+  .home .col-8 .text-end {
+    margin-top: -1rem;
+  }
+
+  /* .sticky-top {
+    overflow: hidden;
+  } */
+}
+
+@media (min-width: 720px) {
+  html {
+    font-size: 65%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 60px;
+    margin: 5px;
+  }
+
+  .mynavbar .nav-link {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .timeline li .timeline-image {
+    width: 140px;
+    height: 140px;
+  }
+
+  .home .heart h1 {
+    display: inline-block;
+    margin: auto;
+    font-family: "Pacifico";
+    color: var(--pink);
+    font-size: 180%;
+  }
+
+  .home .heart {
+    display: inline-block;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(65px);
+    margin-top: 4rem;
+  }
+
+  .gifts {
+    background: url(img/bg-thanks.jpg);
+    background-size: cover;
+  }
+
+  .home .heart h1 {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 412px) {
+  html {
+    font-size: 60%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 45px;
+    margin: 3px;
+  }
+
+  .timeline li .timeline-image {
+    width: 65px;
+    height: 65px;
+  }
+
+  .timeline li .timeline-panel {
+    width: 65%;
+    transform: translateX(50px);
+  }
+
+  .timeline li .timeline-panel::before {
+    top: 30px;
+  }
+
+  .timeline li .timeline-panel::after {
+    top: 31px;
+  }
+
+  .home .heart {
+    margin: auto;
+    width: 23px;
+    height: 23px;
+    display: inline-flex;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 1.05rem;
+  }
+
+  .home .heart h1 {
+    font-size: 100%;
     right: 50%;
   }
 
