@@ -924,3 +924,78 @@ footer li {
     overflow: hidden;
   } */
 }
+
+@media (max-width: 360px) {
+  html {
+    font-size: 60%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 45px;
+    margin: 3px;
+  }
+
+  .timeline li .timeline-image {
+    width: 65px;
+    height: 65px;
+  }
+
+  .timeline li .timeline-panel {
+    width: 65%;
+    transform: translateX(50px);
+  }
+
+  .timeline li .timeline-panel::before {
+    top: 30px;
+  }
+
+  .timeline li .timeline-panel::after {
+    top: 31px;
+  }
+
+  .home .heart {
+    margin: auto;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 1.45rem;
+  }
+
+  .home .heart h1 {
+    font-size: 115%;
+    right: 50%;
+  }
+
+  /* .home .heart h1 {
+    display: inline-block;
+    margin: auto;
+    font-family: "Pacifico";
+    color: var(--pink);
+    font-size: 300;
+    margin-top: 6rem;
+  } */
+
+  .home h3 {
+    font-size: 85%;
+  }
+
+  .home p {
+    font-size: 75%;
+  }
+
+  .gifts {
+    background: url(img/bg-thanks.jpg);
+    background-size: cover;
+  }
+
+  .home .col-8 .text-end {
+    margin-top: -1rem;
+  }
+
+  /* .sticky-top {
+    overflow: hidden;
+  } */
+}
