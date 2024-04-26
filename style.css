@@ -189,7 +189,7 @@ body {
   width: 50px;
   height: 50px;
   background-color: white;
-  display: flex;
+  display: inline;
   border-radius: 50%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -482,7 +482,16 @@ footer li {
 } */
 
 .home .container {
-  margin-top: -6rem;
+  margin-top: -5.5rem;
+}
+
+.home .heart h1 {
+  display: inline-block;
+  margin: auto;
+  font-family: "Pacifico";
+  color: var(--pink);
+  font-size: 170%;
+  margin-top: 0.2rem;
 }
 
 /* Media Query */
@@ -502,6 +511,7 @@ footer li {
     font-family: "Pacifico";
     color: var(--pink);
     font-size: 400;
+    margin-top: 0.3rem;
   }
 }
 
@@ -561,15 +571,16 @@ footer li {
     position: absolute;
     left: 50%;
     transform: translateX(-50%) translateY(65px);
-    margin-top: 7rem;
+    margin-top: -1.5rem;
   }
 
   .home .heart h1 {
     display: inline-block;
     margin: auto;
-    font-family: "Sacramento";
+    font-family: "Pacifico";
     color: var(--pink);
-    font-size: 400;
+    font-size: 260%;
+    margin-top: -0.01rem;
   }
 }
 
@@ -598,7 +609,7 @@ footer li {
   .home .heart h1 {
     display: inline-block;
     margin: auto;
-    font-family: "Sacramento";
+    font-family: "Pacifico";
     color: var(--pink);
     font-size: 300;
   }
@@ -606,8 +617,8 @@ footer li {
   .home .heart {
     display: inline-block;
     margin: auto;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     background-color: white;
     display: flex;
     border-radius: 50%;
@@ -615,12 +626,16 @@ footer li {
     position: absolute;
     left: 50%;
     transform: translateX(-50%) translateY(65px);
-    margin-top: 4rem;
+    margin-top: 7rem;
   }
 
   .gifts {
     background: url(img/bg-thanks.jpg);
     background-size: cover;
+  }
+
+  .home .heart h1 {
+    font-size: 100%;
   }
 }
 
@@ -667,6 +682,10 @@ footer li {
     left: 50%;
     transform: translateX(-50%) translateY(65px);
     margin-top: 5rem;
+  }
+
+  .home .heart h1 {
+    font-size: 120%;
   }
 
   .home h3 {
@@ -727,7 +746,11 @@ footer li {
     position: absolute;
     left: 50%;
     transform: translateX(-50%) translateY(65px);
-    margin-top: 2rem;
+    margin-top: 3rem;
+  }
+
+  .home .heart h1 {
+    font-size: 115%;
   }
 
   .home h3 {
@@ -781,27 +804,29 @@ footer li {
   }
 
   .home .heart {
-    display: inline-block;
     margin: auto;
     width: 25px;
     height: 25px;
-    background-color: white;
     display: flex;
     border-radius: 50%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     position: absolute;
     left: 50%;
-    transform: translateX(-50%) translateY(65px);
-    margin-top: 1.3rem;
+    margin-top: 1.8rem;
   }
 
   .home .heart h1 {
+    font-size: 115%;
+    right: 50%;
+  }
+
+  /* .home .heart h1 {
     display: inline-block;
     margin: auto;
-    font-family: "Sacramento";
+    font-family: "Pacifico";
     color: var(--pink);
     font-size: 300;
-  }
+    margin-top: 6rem;
+  } */
 
   .home h3 {
     font-size: 85%;
